@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+.navbar a {
+    color: black;
+    font-family: 'EB Garamond', serif;
+}
+
+.navbar a:hover {
+    color: grey;
+}
+
+/*------------------------------------------NAV BAR---------------------------------------------------*/
+
+#emptycart
+{
+    padding: 1;
+}
+
+
+
+
+/*-------------------------------------------LANDING PAGE*--------------------------------------------*/
+.landing
+
+/*the pic on the right juts out a bit. Please advise as to how i can fix it/get the page to be a fixed size*/
+    {
+    background-color: #d9d9d9;
+    padding: 30px;
+}
+
+.box {
+    float: left;
+    width: 50%;
+}
+
+/*--------------------------------------------SHOP PAGE*----------------------------------------*/
+
+.image
+{
+   margin-right: 20px;
+   margin-left: 20px;
+   position: relative;
+   overflow: hidden;
+}
+
+.container,
+.products-container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cart ion-icon
+{
+   text-align: right;
+   font-size: 20px;
+   padding-right: 5px;
+}
+
+.cart a
+{
+    background-color: black;
+    color: #d9d9d9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.add-cart
+{
+    position: absolute;
+    width: 100%;
+    background-color: grey;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4
+{
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/*-------------------------------------------ABOUT PAGE--------------------------------------------*/
+#AboutLeft,
+#AboutRight {
+    max-width: 100%;
+    height: auto;
+    -webkit-filter: blur(5px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(2px);
+    filter: saturate(-5%);
+    /*use of image filter as per task requirement*/
+}
+
+.AboutDisplay h2 {
+    color: darkolivegreen;
+}
+
+.AboutDisplay {
+    text-align: center;
+    background-color: #d9d9d9;
+    display: block;
+}
+
+/*--------------------------------------CART PAGE----------------------------------------*/
+
+.products-container
+{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin: 50px;
+    align-items: baseline;
+
+}
+
+.products-container ion-icon
+{
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#totalHeading
+{
+    padding: 40px;
+    width: 20%;
+    max-width: 650px;
+    margin: 0 auto;
+    float: left;
+    font-style: italic;
+}
+
+th
+{
+    padding: 40px;
+    width: 20%;
+    max-width: 650px;
+    align-items: center;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+}
+
+
+
+/*---------------------------------------OLD CODE FROM TASK 7*--------------------------------/
+/*Colour transition effects*/
+/*body {
+    background-color: #d9d9d9;
+    -webkit-transition: background-color 1000ms linear; 
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+body:hover {
+    background-color: #bdb2b2;
+}
+*/
+
+/*Nav bar styling*/
+/*Background colour of navbar will change color on*/
+/*.navbar {
+    background-color: #825337;
+
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+.navbar:hover {
+    background-color: #1f3f44;
+}
+*/

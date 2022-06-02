@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <!-- Comment the line below out to see the difference between using Bootsrap and not using it in this example -->
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+
+
+    <title> Shop</title> <!-- Named the page Shop instead of Catalogue-->
+</head>
+
+<body>
+
+    <!-- Navigation-->
+    <nav class="navbar">
+        <!--This is the website's navigation bar-->
+        <img id="logo" src="CatalogueImages/Logo.png" alt="logo" height="80" width="auto" />
+        <a class="navbar-brand" href="Landing.html"> Home </a>
+        <a class="navbar-brand" href="About.html"> About </a>
+        <a class="navbar-brand" href="Shop.html"> Shop </a>
+        <a class="navbar-brand" href="Contact.html"> Contact Us </a>
+
+        <li class="cart">
+            <a name = "cartPage" href="Cart.html">
+                <ion-icon name="basket"></ion-icon> Cart <span> (0) </span>
+            </a>
+        </li>
+
+        <button id = "emptycart">Empty Cart</button>
+
+        <form class="form-inline">
+            <!--Example of a type of form-->
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+
+    </nav>
+
+    <!-- Catalogue-->
+    <div class="container">
+        <div class="image">
+            <a href="Book1.html"> <img src="CatalogueImages/thumbnail.jpg" alt="book image"
+                    class="img-thumbnail img-fluid center"></a>
+            <p> Will Smith's autobiography <br><b>R500</b></p>
+            <a class="add-cart cart1" href="#">Quick Add Cart </a>
+        </div>
+
+        <div class="image">
+            <a href="Book2.html"><img src="CatalogueImages/thumbnail(1).jpg" alt="book image"
+                    class=" img.thumbnail img-fluid center"> </a>
+            <p> Building habits to change <br> your life <br> <b>R450</b></p>
+            <a class="add-cart cart2" href="#">Quick Add Cart </a>
+        </div>
+
+        <div class="image">
+            <a href="Book3.html"><img src="CatalogueImages/thumbnail(2).jpg" alt="book image"
+                    class="img-thumbnail img-fluid center"> </a>
+            <p> A story of forbidden romance <br> <b>R400</b></p>
+            <a class="add-cart cart3" href="#">Quick Add Cart </a>
+        </div>
+
+        <div class="image">
+            <a href="Book4.html"><img src="CatalogueImages/thumbnail(3).jpg" alt="book image"
+                    class=" img.thumbnail img-fluid center"> </a>
+            <p>Siya Kolisi's autobiography <br> <b>R300</b></p>
+            <a class="add-cart cart4" href="#">Quick Add Cart </a>
+        </div>
+
+        <div class="image">
+            <a href="Book5.html"><img src="CatalogueImages/thumbnail(4).jpg" alt="book image"
+                    class="img-thumbnail img-fluid center"> </a>
+            <p> The bestselling coming of age story <br><b>R250</b></p>
+            </td>
+            <a class="add-cart cart5" href="#">Quick Add Cart </a>
+        </div>
+    </div>
+
+    <!--Script tags for ion-icon shopping bag icon-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="shop.js"></script>
+
+</body>
+
+</html>

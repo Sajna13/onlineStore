@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <!-- Comment the line below out to see the difference between using Bootsrap and not using it in this example -->
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+
+    <title> Contact Us</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <img id="logo" src="CatalogueImages/Logo.png" alt="logo" height="80" width="auto" />
+        <a class="navbar-brand" href="Landing.html"> Home </a>
+        <a class="navbar-brand" href="About.html"> About </a>
+        <a class="navbar-brand" href="Shop.html"> Shop </a>
+        <a class="navbar-brand" href="Contact.html"> Contact Us </a>
+
+        <form class="form-inline">
+            <!-- Instance of a radio button-->
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <div class="contactDisplay"">
+        <form>
+            <h1 style="font-family:'EB Garamond', serif;">Contact Us</h1>
+            <h3> Fill in your details below, and we'll get back to you</h3>
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="inputQuery">What would you like to tell us?</label>
+                <input type="text" class="form-control" id="inputQuery" placeholder="Insert Text">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button><a href="mailto:booked@gmail.com"></a>
+                <!-- instance of an external link-->
+        </form>
+    </div>
+
+</body>
