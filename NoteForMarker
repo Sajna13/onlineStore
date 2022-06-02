@@ -1,0 +1,13 @@
+-------------------------LOGIC EXPLANATION-------------------------------------------------------
+-I have created different functions that generate a 'productsInCart', 'inCart' and 'totalCost' variables.
+- 'productsInCart': stores product info like name and author.
+- 'inCart' keeps track of number of items in cart
+- 'totalCost': is the customer's total.
+
+- 'productsInCart' is pushed into cartArrayDisplay for later display purposes.
+- I am having trouble displaying the cartArrayDisplay array into a table form on the Cart.html page 
+(separate from Shop.html)
+- Please advise on how to display the variables and array correctly. 
+
+- Due to issues with display, I have not proceeded with the coupon/delivery forms which also need
+to be displayed on the cart page
