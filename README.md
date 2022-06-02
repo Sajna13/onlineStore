@@ -1,4 +1,4 @@
-#*Online Store Capstone Project?*
+#Online Store Capstone Project
 
 *Description*
 This projects consists of the HTML, CSS and JavaScript files necessary for running an online store that allows a use to "quick add to cart" and "add to cart" as well as displays sopping cart items on a separate "Cart" page.
